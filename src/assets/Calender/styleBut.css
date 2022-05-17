@@ -1,0 +1,16 @@
+.button {
+    align-items: center;
+    margin: 0;
+    padding: 0 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: currentColor;
+}
+
+.button--filled {
+    border-color: transparent;
+    border: none;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.productPhoto{
+    width: 198px;
+    height: 198px;
+    margin-top: 30px;
+}
+.productInfo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    background: #ffffff;
+    margin-left: 30px;
+    margin-bottom: 30px ;
+}
+.title{
+    font-size: 16px;
+    color: #1c1e23;
+}
+.price{
+    font-size: 14px;
+}
+.rating{
+    font-size: 12px;
+    color: #b8bfd3;
+}
+.blockProducts{
+    flex-wrap: wrap;
+}
+.productInfoMin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

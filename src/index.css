@@ -1,0 +1,23 @@
+body {
+ background: #fff;
+}
+
+li {
+ list-style-type: none;
+}
+.container{
+ width: 1194px !important;
+
+}
+hr{
+ margin: 0!important;
+}
+dl, ol, ul{
+ margin-bottom: 0 !important;
+ padding-left: 0 !important;
+
+}
+
+#root{
+ background: #fff;
+}

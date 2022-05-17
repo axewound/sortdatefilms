@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Atami';
+  src: local('Atami'), url(assets/font/Atami-Regular.otf) format('otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+a{
+  text-decoration: none !important;
+}
+.header_title{
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.app_span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.app_block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_tv_block{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 80px 140px 90px;
+}
+.header_tv_block img{
+  width: auto;
+  margin: 0 auto 70px;
+}
+.container{
+  max-width: 750px;
+margin: 0 auto;
+}
+.blockTvText{
+  margin: 0 100px;
+}
